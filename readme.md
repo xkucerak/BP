@@ -1,4 +1,4 @@
-# Scripts and supplementary data used for bachelor's thesis: Practical attacks on neural networks
+# Scripts and supplementary data used for bachelor's thesis: Practical Fault Attacks on Neural Networks
 
 # FIIT-16768-127209
 
