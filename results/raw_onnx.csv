@@ -1,0 +1,17 @@
+local_path,model,model_type,chunk_id,top1,top5
+C:\Users\Steve\CODE\BP\models\resnet18\resnet18_fp16.onnx,models,resnet18,resnet18_fp16,0.687744140625,0.8837890625
+C:\Users\Steve\CODE\BP\models\resnet18\resnet18_fp32.onnx,models,resnet18,resnet18_fp32,0.6875,0.8837890625
+C:\Users\Steve\CODE\BP\models\resnet18\resnet18_int4.onnx,models,resnet18,resnet18_int4,0.67236328125,0.87548828125
+C:\Users\Steve\CODE\BP\models\resnet18\resnet18_int8.onnx,models,resnet18,resnet18_int8,0.687744140625,0.884521484375
+C:\Users\Steve\CODE\BP\models\resnet34\resnet34_fp16.onnx,models,resnet34,resnet34_fp16,0.72802734375,0.90966796875
+C:\Users\Steve\CODE\BP\models\resnet34\resnet34_fp32.onnx,models,resnet34,resnet34_fp32,0.727783203125,0.909912109375
+C:\Users\Steve\CODE\BP\models\resnet34\resnet34_int4.onnx,models,resnet34,resnet34_int4,0.7197265625,0.903076171875
+C:\Users\Steve\CODE\BP\models\resnet34\resnet34_int8.onnx,models,resnet34,resnet34_int8,0.725830078125,0.909423828125
+C:\Users\Steve\CODE\BP\models\resnet50\resnet50_fp16.onnx,models,resnet50,resnet50_fp16,0.755126953125,0.9248046875
+C:\Users\Steve\CODE\BP\models\resnet50\resnet50_fp32.onnx,models,resnet50,resnet50_fp32,0.755615234375,0.924560546875
+C:\Users\Steve\CODE\BP\models\resnet50\resnet50_int4.onnx,models,resnet50,resnet50_int4,0.746826171875,0.918212890625
+C:\Users\Steve\CODE\BP\models\resnet50\resnet50_int8.onnx,models,resnet50,resnet50_int8,0.75244140625,0.92333984375
+C:\Users\Steve\CODE\BP\models\vgg11\vgg11_fp16.onnx,models,vgg11,vgg11_fp16,0.683349609375,0.885986328125
+C:\Users\Steve\CODE\BP\models\vgg11\vgg11_fp32.onnx,models,vgg11,vgg11_fp32,0.68310546875,0.88623046875
+C:\Users\Steve\CODE\BP\models\vgg11\vgg11_int4.onnx,models,vgg11,vgg11_int4,0.681640625,0.880615234375
+C:\Users\Steve\CODE\BP\models\vgg11\vgg11_int8.onnx,models,vgg11,vgg11_int8,0.681884765625,0.886474609375
