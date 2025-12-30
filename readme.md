@@ -4,6 +4,8 @@
 
 ## Folders
 
+### Due to the limited upload size to GitHub, remaining models and data are located [HERE](https://drive.google.com/drive/folders/1Y0t6xisvHxY3VKNCTJSeeHErkK4nrIFp?usp=sharing)
+
 Main helping functions used are located in [SOFTWARE](softtools) and [HARDWARE](hardtools).
 
 | Folder                                 | Contents                                     |
