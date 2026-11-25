@@ -1,0 +1,36 @@
+Paired chunks: 352
+Missing counterparts skipped: 0
+
+WHOLE CAMPAIGN
+simple mean BER across chunks: 6.2188%
+simple mean affected bytes across chunks: 13.8798%
+byte-weighted BER: 6.1701%
+byte-weighted affected bytes: 13.7807%
+
+CHUNK-SIZE CONFOUND
+non-final chunks: n=336, mean BER=6.1209%, mean affected bytes=13.6834%
+final chunks: n=16, mean BER=8.2760%, mean affected bytes=18.0051%
+
+BY DTYPE (simple chunk mean / byte-weighted)
+fp16: n= 94; BER=6.0749% / 6.0086%; affected=14.1418% / 13.9937%
+fp32: n=185; BER=5.9667% / 5.9483%; affected=13.4916% / 13.4524%
+int4: n= 25; BER=6.1529% / 6.0281%; affected=13.0034% / 12.7294%
+int8: n= 48; BER=7.5070% / 7.4510%; affected=15.3196% / 15.1938%
+
+BY MODEL x DTYPE
+resnet18 fp16: n=  6; mean BER=6.9587%; mean affected=16.0401%; bits/affected-byte=3.474
+resnet18 fp32: n= 12; mean BER=6.2229%; mean affected=14.0701%; bits/affected-byte=3.538
+resnet18 int4: n=  2; mean BER=6.1020%; mean affected=12.8443%; bits/affected-byte=3.743
+resnet18 int8: n=  3; mean BER=8.0160%; mean affected=16.2536%; bits/affected-byte=3.946
+resnet34 fp16: n= 11; mean BER=6.4765%; mean affected=14.8874%; bits/affected-byte=3.476
+resnet34 fp32: n= 21; mean BER=6.2750%; mean affected=14.2775%; bits/affected-byte=3.516
+resnet34 int4: n=  3; mean BER=4.9957%; mean affected=10.9379%; bits/affected-byte=3.621
+resnet34 int8: n=  6; mean BER=7.5306%; mean affected=15.3636%; bits/affected-byte=3.922
+resnet50 fp16: n= 13; mean BER=6.1445%; mean affected=14.1950%; bits/affected-byte=3.461
+resnet50 fp32: n= 25; mean BER=6.0404%; mean affected=13.6553%; bits/affected-byte=3.538
+resnet50 int4: n=  4; mean BER=5.2940%; mean affected=11.5546%; bits/affected-byte=3.660
+resnet50 int8: n=  7; mean BER=7.6227%; mean affected=15.5253%; bits/affected-byte=3.929
+vgg11    fp16: n= 64; mean BER=5.9088%; mean affected=13.8248%; bits/affected-byte=3.417
+vgg11    fp32: n=127; mean BER=5.8769%; mean affected=13.2748%; bits/affected-byte=3.542
+vgg11    int4: n= 16; mean BER=6.5910%; mean affected=13.7727%; bits/affected-byte=3.825
+vgg11    int8: n= 32; mean BER=7.4295%; mean affected=15.1787%; bits/affected-byte=3.916
